@@ -17,6 +17,11 @@
     "dist",
     "public"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giapdeviscool/subts-player.git"
+  },
+  "homepage": "https://github.com/giapdeviscool/subts-player#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -p tsconfig.build.json",
