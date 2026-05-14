@@ -48,7 +48,7 @@ export default function App() {
 | :--- | :--- | :--- | :--- |
 | `url` | `string` | required | HLS playlist URL (`.m3u8`). |
 | `token` | `string` | `undefined` | Optional Bearer token sent in the `Authorization` header. |
-| `isLive` | `boolean` | `false` | Marks the stream as live and enables live badges/behavior. |
+| `isLive` | `boolean` | `false` | Marks the stream as live and enables live badges/behavior and switch to autoplay. |
 | `viewerCount` | `number` | `0` | Current concurrent viewer count shown in the top badge. |
 | `viewerMinutes` | `number` | `0` | Total viewed minutes shown in the top badge. |
 
@@ -64,7 +64,7 @@ export default function App() {
 
 - Click the video to play/pause.
 - Open settings to switch playback mode and inspect ABR/stats logs.
-- Click `LIVE` / `GO LIVE` to jump back to the latest live edge.
+- Click `Connect` to jump back/connect to the latest live edge.
 
 ## License
 
