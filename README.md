@@ -4,7 +4,7 @@
 
 ## Preview
 
-![SubTSPlayer preview](./public/im1.png)
+![SubTSPlayer preview](https://github.com/giapdeviscool/subts-player/blob/main/public/im1.png)
 
 ## Installation
 
